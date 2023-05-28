@@ -1,7 +1,7 @@
 'use client'
 
-// import ChatInput from './ChatInput'
-// import ChatMessages from './ChatMessages'
+import ChatInput from './ChatInput'
+import ChatMessages from './ChatMessages'
 import ChatHeader from './ChatHeader'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
 
@@ -16,8 +16,8 @@ export default function Chat() {
 						</AccordionTrigger>
 						<AccordionContent>
 							<div className='flex flex-col h-80'>
-								{/* <ChatMessages className='px-2 py-3 flex-1' />
-								<ChatInput className='px-4' /> */}
+								<ChatMessages className='px-2 py-3 flex-1' />
+								<ChatInput className='px-4' />
 							</div>
 						</AccordionContent>
 					</div>
